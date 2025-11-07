@@ -1,0 +1,35 @@
+.hero {
+  padding: 5rem 1rem 3rem;
+  text-align: center;
+  background: radial-gradient(1200px 400px at 50% -50%, rgba(61, 130, 255, 0.22), transparent 70%);
+}
+
+.inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.subtitle {
+  margin: 0.75rem auto 2rem;
+  max-width: 720px;
+}
+
+.cta {
+  display: inline-block;
+  background: linear-gradient(180deg, var(--brand) 0%, var(--brand-strong) 100%);
+  color: #0a0d12;
+  padding: 0.8rem 1.1rem;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.cta:hover {
+  filter: brightness(1.05);
+}
+
+
+

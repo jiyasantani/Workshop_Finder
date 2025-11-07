@@ -1,0 +1,33 @@
+.section { padding: 3rem 1rem; }
+
+.container { max-width: 1100px; margin: 0 auto; }
+
+h2 { font-size: 1.6rem; margin-bottom: 1rem; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 960px) {
+  .grid { grid-template-columns: repeat(6, 1fr); }
+}
+
+.card {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 14px;
+  padding: 1.2rem;
+  text-align: center;
+}
+
+.emoji { font-size: 1.8rem; }
+.label { margin-top: 0.5rem; color: var(--muted); font-weight: 600; }
+
+
+
