@@ -40,6 +40,7 @@ VITE_SUPABASE_URL=your_supabase_project_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 3) - Initialize Supabase Client
+```
 // src/lib/supabaseClient.js
 import { createClient } from '@supabase/supabase-js';
 
@@ -47,7 +48,7 @@ const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
 export const supabase = createClient(supabaseUrl, supabaseKey);
-
+```
 4) Create the table in Supabase
 
 Run this SQL in the Supabase SQL editor:
