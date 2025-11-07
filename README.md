@@ -1,10 +1,13 @@
 # Workshop Finder – Landing Page (React + Vite)
 
 This project is a responsive one-page landing site built using React for the frontend and Supabase for backend data storage. It serves as a discovery platform for workshops held across various cities.
+
 🧠 Purpose:
 To help users find and join workshops that make weekends creative, spark new hobbies, and turn free time into learning time.
+
 🎨 Workshop Categories:
 Artistic, Coding, Communication, Summer Camps, and many more.
+
 ⚙️ Core Technologies:
 - React: Modular, component-based frontend— ideal for a one-page layout with sections like Hero, Description, WorkshopTypes, and WaitlistForm.
 - Supabase: Instant backend with PostgreSQL and RESTful API — ideal for storing waitlist submissions without setting up a full server.
