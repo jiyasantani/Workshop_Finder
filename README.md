@@ -61,7 +61,7 @@ create table if not exists public.waitlist (
   message text,
   created_at timestamp with time zone default now()
 );
-
+```
 ⚠️ Challenges Faced with Supabase
 
 When setting up the waitlist table, Supabase enabled Row Level Security (RLS) by default, which caused form submissions to silently fail — no data was being stored.
@@ -112,7 +112,7 @@ This entire project was built inside Cursor IDE, and it played a pivotal role in
 
 ✨ Prompt That Sparked It All
 To generate the initial structure, I used this prompt in Cursor:
-
+```
 Build a responsive one-page landing site using React, styled with CSS modules or Tailwind. The site is for a platform that helps users discover and join workshops across different cities — including artistic, coding, communication, summer camps, and more.
 
 🔹 Structure:
@@ -133,7 +133,7 @@ Build a responsive one-page landing site using React, styled with CSS modules or
 - Add basic success/error feedback after form submission
 - Use modular components: Header.jsx, Hero.jsx, Description.jsx, WorkshopTypes.jsx, WaitlistForm.jsx, Footer.jsx
 - Keep styling clean and mobile-friendly
-
+```
 Cursor interpreted this prompt beautifully — generating a clean, modular React structure with all the components I envisioned.
 
 
